@@ -1,4 +1,5 @@
 const contenedorTarjetas = document.getElementById("productos-container");
+//const Buscar = document.getElementById("buscar");
 const URL = 'js/novelas.json'
 
 function crearTarjetasProductosInicio(productos){
@@ -42,3 +43,10 @@ async function obtenerProductos() {
 }
 
 obtenerProductos();
+
+/*
+Buscar.addEventListener("search", () => {
+    let param = Buscar.ariaValueMax.trim().toLowerCase()
+    let Resultado = productos.filter((producto) => producto.nombre.toLowerCase().includes(param))
+    obtenerProductos(Resultado)
+})*/

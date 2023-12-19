@@ -3,72 +3,84 @@
         "id": 13,
         "nombre": "5 centímetros por segundo",
         "precio": 25490,
-        "editorial": "Planeta"
+        "editorial": "Planeta",
+        "categoria": "Novelas"
     },
     {
         "id": 14,
         "nombre": "El Lugar que nos Prometimos",
         "precio": 32990,
-        "editorial": "Planeta"
+        "editorial": "Planeta",
+        "categoria": "Novelas"
     },
     {
         "id": 15,
         "nombre": "Fireworks",
         "precio": "29990",
-        "editorial": "Planeta"
+        "editorial": "Planeta",
+        "categoria": "Novelas"
     },
     {
         "id": 16,
         "nombre": "Goblin Slayer 01",
         "precio": "17490",
-        "editorial": "Ivrea Argentina"
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas"
     },
     {
         "id": 17,
         "nombre": "Goblin Slayer 02",
         "precio": "17490",
-        "editorial": "Ivrea Argentina"
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas"
     },
     {
         "id": 18,
         "nombre": "Goblin Slayer 03",
         "precio": "17490",
-        "editorial": "Ivrea Argentina"
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas"
     },
     {
         "id": 19,
         "nombre": "El Descontrol de Haruhi Suzumiya",
         "precio": 12490,
-        "editorial": "Ivrea España"
+        "editorial": "Ivrea España",
+        "categoria": "Novelas"
     },
     {
         "id": 20,
         "nombre": "El Jardín de las Palabras",
         "precio": 32990,
-        "editorial": "Planeta"
+        "editorial": "Planeta",
+        "categoria": "Novelas"
     },
     {
         "id": 21,
         "nombre": "Overlord 01: El Rey no Muerto",
         "precio": 23990,
-        "editorial": "Panini México"
+        "editorial": "Panini México",
+        "categoria": "Novelas"
     },
     {
         "id": 22,
         "nombre": "Overlord 02: El Guerrero Oscuro",
         "precio": 23990,
-        "editorial": "Panini México"
+        "editorial": "Panini México",
+        "categoria": "Novelas"
     },
     {
         "id": 23,
         "nombre": "Overlord 03: La Valquiria Sangrienta",
         "precio": 23990,
-        "editorial": "Panini México"
+        "editorial": "Panini México",
+        "categoria": "Novelas"
     },
     {
         "id": 24,
         "nombre": "Overlord 04: Los Heroicos Hombres Lagarto",
         "precio": 23990,
-        "editorial": "Panini México"
+        "editorial": "Panini México",
+        "categoria": "Novelas"
     }
 ]

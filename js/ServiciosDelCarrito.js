@@ -1,4 +1,5 @@
 const cuentaCarritoElement = document.getElementById("cuenta-carrito");
+const ButtonTerminarComprar = document.getElementById("TerminarCompra");
 
 function agregarAlCarrito(producto){
     let memoria = JSON.parse(localStorage.getItem("mangas"));
@@ -11,7 +12,7 @@ function agregarAlCarrito(producto){
         cantidadProductoFinal = 1;
 }
     else {
-        const indiceProducto = memoria.findIndex(bicicleta => bicicleta.id === producto.id)
+        const indiceProducto = memoria.findIndex(manga => manga.id === producto.id)
         const nuevaMemoria = memoria;
             if(indiceProducto === -1){
                 const nuevoProducto = getNuevoProductoParaMemoria(producto);
@@ -30,7 +31,7 @@ function agregarAlCarrito(producto){
 function restarAlCarrito(producto){
     let memoria = JSON.parse(localStorage.getItem("mangas"));
     let cantidadProductoFinal = 0;
-    const indiceProducto = memoria.findIndex(bicicleta => bicicleta.id === producto.id)
+    const indiceProducto = memoria.findIndex(manga => manga.id === producto.id)
     let nuevaMemoria = memoria;
     nuevaMemoria[indiceProducto].cantidad--;
     cantidadProductoFinal = nuevaMemoria[indiceProducto].cantidad;
@@ -65,3 +66,29 @@ function reiniciarCarrito(){
 
 
 actualizarNumeroCarrito();
+
+
+ButtonTerminarComprar.addEventListener("click", () => {
+    Swal.fire({
+        title: "¿Deseas finalizar la compra?",
+        showDenyButton: true,
+        confirmButtonText: "Confirmar",
+        denyButtonText: "Por ahora no"
+    })
+    .then((result) =>{
+        if (result.isConfirmed) {
+            Swal.fire({
+                text: "¡Gracias por tu compra y preferencia! Valoramos tu elección y esperamos que disfrutes tu adquisición. ¡Que tengas un excelente día!",
+                showConfirmButton: false,
+                icon: "info",
+                timer: 2500
+            })
+        } else if (result.isDenied) {
+            Swal.fire({
+                text: "¿Por qué detenerte aquí? ¡Descubre más opciones increíbles y completa tu carrito con productos que te encantarán! ¡Sigue explorando y añade más artículos para aprovechar al máximo tu compra!",
+                icon: "info",
+                timwe: 2500
+            })
+        }
+    });
+})
