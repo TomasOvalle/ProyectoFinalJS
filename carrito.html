@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/mangas.js"></script>
+    <script src="./js/ServiciosDelCarrito.js" defer></script>
+    <script src="./js/carrito.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="#" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <p id="carrito-vacio">Ups! El carrito está vacío, <a href="index.html">Elige algunos productos</a></p>
+    <section id="cart-container">
+
+    </section>
+
+    <section id="totales">
+        <p>Total unidades: <span id="cantidad">0</span></p>
+        <p>Total precio: $ <span id="precio">0</span></p>
+        <button disabled>Comprar</button>
+        <button id="reiniciar">Reiniciar</button>
+    </section>
+</main>
+
+
+
+</body>
+</html>
