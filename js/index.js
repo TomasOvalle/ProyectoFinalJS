@@ -1,22 +1,5 @@
 const contenedorTarjetas = document.getElementById("productos-container");
-//const Buscar = document.getElementById("buscar");
-const URL = 'js/novelas.json'
-
-function crearTarjetasProductosInicio(productos){
-    productos.forEach(producto => {
-        const nuevoManga = document.createElement("div");
-        nuevoManga.classList = "tarjeta-producto"
-        nuevoManga.innerHTML = `
-        <img src="./img/productos/${producto.id}.jpg">
-        <figcaption>${producto.editorial}</figcaption>
-        <figcaption>${producto.nombre}</figcaption>
-        <figcaption>$${producto.precio}</figcaption>
-        <button>Agregar al carrito</button>`
-        contenedorTarjetas.appendChild(nuevoManga);
-        nuevoManga.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto))
-    });
-}
-crearTarjetasProductosInicio(Mangas);
+const URL = "https://6588d05b324d417152583aa1.mockapi.io/productos"
 
 
 async function obtenerProductos() {
@@ -38,15 +21,17 @@ async function obtenerProductos() {
             card.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto))
         });
     } catch (error) {
-        console.error('Error al obtener los productos:', error);
+        contenedorTarjetas.innerHTML = crearCardError()
     }
 }
 
 obtenerProductos();
 
-/*
-Buscar.addEventListener("search", () => {
-    let param = Buscar.ariaValueMax.trim().toLowerCase()
-    let Resultado = productos.filter((producto) => producto.nombre.toLowerCase().includes(param))
-    obtenerProductos(Resultado)
-})*/
+
+function crearCardError() {
+    return `<div class="div-card-error">
+            <div class="leyenda-error">Lo sentimos, hubo un problema al cargar los productos. Por favor, inténtalo de nuevo más tarde o contacta a soporte para obtener ayuda.</div>
+                </div>`
+}
+
+crearCardError();

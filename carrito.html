@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito | MangaHaven</title>
     <link rel="stylesheet" href="css/carrito.css">
-    <script src="./js/mangas.js"></script>
     <script src="./js/ServiciosDelCarrito.js" defer></script>
     <script src="./js/carrito.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
@@ -13,35 +12,27 @@
 </head>
 <body class="layout">
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+            </ul>
+            <div>
+                <a href="carrito.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span class="cuenta-carrito" id="cuenta-carrito">0</span></a>
+            </div>
+        </div>
+        </div>
+    </nav>
     </header>
 
-    <aside>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="nav flex-column ">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Otros</a>
-                </li>
-                <div>
-                    <a href="carrito.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
-                </div>
-            </ul>
-        </nav>
-    </aside>
-
-
 <main>
-    <p id="carrito-vacio">Ups! El carrito está vacío. <a href="index.html">Elige algunos productos.</a></p>
-    <section id="cart-container">
+    <p class="carrito-vacio" id="carrito-vacio">Ups! El carrito está vacío. <a href="index.html">Elige algunos productos.</a></p>
+    <section class="cart-container" id="cart-container">
 
     </section>
 
-    <section id="totales">
+    <section class="totales" id="totales">
         <p>Total unidades: <span id="cantidad">0</span></p>
         <p>Total precio: $ <span id="precio">0</span></p>
         <button id="TerminarCompra">Comprar</button>

@@ -17,41 +17,42 @@
     background-color: #742380;
 }
 
-aside .navbar .nav div img{
+nav div img{
     width: 50px;
     height: 50px;
     margin-left: 15px;
 }
 
-aside .navbar .nav .nav-item a{
+nav .nav-item a{
     text-decoration: none;
     color: black;
     font-family: "NanumGothicRegular";
     font-size: 20px;
 }
 
-aside .navbar .nav .nav-item a:hover{
+nav .nav-item a:hover{
     color: #CE3B8E;
     transition: 0.6s;
 }
 
-#carrito-vacio{
+.carrito-vacio{
+    margin-top: 100px;
     margin-left: 600px;
     color: black;
     font-family: "NanumGothicRegular";
 }
 
-#carrito-vacio a{
+.carrito-vacio a{
     text-decoration: none;
     color: black;
 }
 
-#cart-container{
-    margin-left: 600px;
+.cart-container{
+    margin-left: 200px;
 }
 
-#totales{
-    margin-left: 600px;
+.totales{
+    margin-left: 200px;
     color: black;
     font-family: "NanumGothicRegular";
 }
@@ -89,12 +90,59 @@ aside .navbar .nav .nav-item a:hover{
     padding-top: 5px;
 }
 
-#cart-container{
+.cart-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+@media (max-width: 475px) {
 
+    .cart-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+.cart-container{
+    margin-left: 70px;
+}
+
+    .tarjeta-producto img{
+        width: 115px;
+        height: 167px;
+    }
+
+    .tarjeta-producto button{
+        margin-top: 5px;
+        width: 125px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .cart-container .tarjeta-producto figcaption{
+        font-size: 14px;
+    }
+
+    .carrito-vacio{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .cart-container .tarjeta-producto .boton .boton-menos{
+        width: 40px;
+        height: 25px;
+    }
+
+    .cart-container .tarjeta-producto .boton .boton-mas{
+        width: 40px;
+        height: 25px;
+    }
+
+    .totales{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
 
 
 

@@ -1,83 +1,167 @@
 [
     {
-        "id": 13,
+        "id": "1",
+        "nombre": "Bakemonogatari 01",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "2",
+        "nombre": "Bakemonogatari 03",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "3",
+        "nombre": "Bakemonogatari 04",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "4",
+        "nombre": "Bakemonogatari 05",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "5",
+        "nombre": "Bakemongatari 06",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "6", 
+        "nombre": "Bakemonogatari 14",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga"
+    },
+    {
+        "id": "7", 
+        "nombre": "Slam Dunk 04",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "8",
+        "nombre": "Slam Dunk 07",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "9",
+        "nombre": "Slam Dunk 15",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "10",
+        "nombre": "Vagabond 01",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "11",
+        "nombre": "Vagabond 05",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "12",
+        "nombre": "Vagabond 09",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga"
+    },
+    {
+        "id": "13",
         "nombre": "5 centímetros por segundo",
         "precio": 25490,
         "editorial": "Planeta",
         "categoria": "Novelas"
     },
     {
-        "id": 14,
+        "id": "14",
         "nombre": "El Lugar que nos Prometimos",
         "precio": 32990,
         "editorial": "Planeta",
         "categoria": "Novelas"
     },
     {
-        "id": 15,
+        "id": "15",
         "nombre": "Fireworks",
         "precio": "29990",
         "editorial": "Planeta",
         "categoria": "Novelas"
     },
     {
-        "id": 16,
+        "id": "16",
         "nombre": "Goblin Slayer 01",
         "precio": "17490",
         "editorial": "Ivrea Argentina",
         "categoria": "Novelas"
     },
     {
-        "id": 17,
+        "id": "17",
         "nombre": "Goblin Slayer 02",
         "precio": "17490",
         "editorial": "Ivrea Argentina",
         "categoria": "Novelas"
     },
     {
-        "id": 18,
+        "id": "18",
         "nombre": "Goblin Slayer 03",
         "precio": "17490",
         "editorial": "Ivrea Argentina",
         "categoria": "Novelas"
     },
     {
-        "id": 19,
+        "id": "19",
         "nombre": "El Descontrol de Haruhi Suzumiya",
         "precio": 12490,
         "editorial": "Ivrea España",
         "categoria": "Novelas"
     },
     {
-        "id": 20,
+        "id": "20",
         "nombre": "El Jardín de las Palabras",
         "precio": 32990,
         "editorial": "Planeta",
         "categoria": "Novelas"
     },
     {
-        "id": 21,
+        "id": "21",
         "nombre": "Overlord 01: El Rey no Muerto",
         "precio": 23990,
         "editorial": "Panini México",
         "categoria": "Novelas"
     },
     {
-        "id": 22,
+        "id": "22",
         "nombre": "Overlord 02: El Guerrero Oscuro",
         "precio": 23990,
         "editorial": "Panini México",
         "categoria": "Novelas"
     },
     {
-        "id": 23,
+        "id": "23",
         "nombre": "Overlord 03: La Valquiria Sangrienta",
         "precio": 23990,
         "editorial": "Panini México",
         "categoria": "Novelas"
     },
     {
-        "id": 24,
+        "id": "24",
         "nombre": "Overlord 04: Los Heroicos Hombres Lagarto",
         "precio": 23990,
         "editorial": "Panini México",

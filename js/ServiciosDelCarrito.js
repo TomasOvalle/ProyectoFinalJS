@@ -87,7 +87,7 @@ ButtonTerminarComprar.addEventListener("click", () => {
             Swal.fire({
                 text: "¿Por qué detenerte aquí? ¡Descubre más opciones increíbles y completa tu carrito con productos que te encantarán! ¡Sigue explorando y añade más artículos para aprovechar al máximo tu compra!",
                 icon: "info",
-                timwe: 2500
+                timer: 2500
             })
         }
     });

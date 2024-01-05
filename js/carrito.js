@@ -16,10 +16,10 @@ function crearTarjetasProductosCarrito() {
         <figcaption>${producto.editorial}</figcaption>  
         <figcaption>${producto.nombre}</figcaption>
         <figcaption>$${producto.precio}</figcaption>
-        <div>
-            <button>-</button>
+        <div class="boton">
+            <button class="boton-menos">-</button>
             <span class="cantidad">${producto.cantidad}</span>
-            <button>+</button>
+            <button class="boton-mas">+</button>
         </div>
     `;
     contenedorTarjetas.appendChild(nuevoManga);
